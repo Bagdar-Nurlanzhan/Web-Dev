@@ -1,0 +1,48 @@
+<!-- HTML id Attribute -->
+
+<!-- 1. id used for styling (unique element) -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1 id="myHeader">My Header</h1>
+
+</body>
+</html>
+
+<!-- 2. Difference between id and class -->
+<style>
+#mainTitle {
+  color: blue;
+}
+.city {
+  color: red;
+}
+</style>
+
+<h1 id="mainTitle">My Cities</h1>
+<p class="city">London</p>
+<p class="city">Paris</p>
+
+<!-- 3. Bookmark using id -->
+<h2 id="C4">Chapter 4</h2>
+<a href="#C4">Jump to Chapter 4</a>
+
+<!-- 4. Using id in JavaScript -->
+<button onclick="changeText()">Change text</button>
+
+<script>
+function changeText() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+</script>

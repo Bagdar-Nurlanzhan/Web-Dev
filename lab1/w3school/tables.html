@@ -1,0 +1,136 @@
+<!-- HTML Tables -->
+<!-- Basic table structure -->
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+</table>
+
+<!-- Table borders -->
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+
+<!-- Table size (width) -->
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>50</td>
+  </tr>
+</table>
+
+<!-- Column width -->
+<table style="width:100%">
+  <tr>
+    <th style="width:70%">Firstname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<!-- Row height -->
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr style="height:200px">
+    <td>Jill</td>
+    <td>50</td>
+  </tr>
+</table>
+
+<!-- Vertical table headers -->
+<table>
+  <tr>
+    <th>Name</th>
+    <td>Jill</td>
+    <td>Eve</td>
+  </tr>
+  <tr>
+    <th>Age</th>
+    <td>50</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<!-- Header spanning multiple columns (colspan) -->
+<table>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+</table>
+
+<!-- Table caption -->
+<table style="width:100%">
+  <caption>Monthly Savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+
+<!-- Cell padding -->
+<style>
+th, td {
+  padding: 15px;
+}
+</style>
+
+<!-- Zebra stripes -->
+<style>
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+</style>
+
+<!-- Hoverable rows -->
+<style>
+tr:hover {
+  background-color: #D6EEEE;
+}
+</style>
+
+<!-- Colgroup -->
+<table>
+  <colgroup>
+    <col span="2" style="background-color:#D6EEEE">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+</table>

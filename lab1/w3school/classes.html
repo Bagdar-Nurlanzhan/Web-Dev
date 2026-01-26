@@ -1,0 +1,51 @@
+<!-- HTML class Attribute -->
+
+<!-- 1. Class used for styling multiple elements -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="city">
+  <h2>London</h2>
+  <p>Capital of England.</p>
+</div>
+
+<div class="city">
+  <h2>Paris</h2>
+  <p>Capital of France.</p>
+</div>
+
+</body>
+</html>
+
+<!-- 2. Class on inline element -->
+<p>This is <span class="city">important</span> text.</p>
+
+<!-- 3. Multiple classes -->
+<h2 class="city main">Tokyo</h2>
+
+<!-- 4. Same class on different elements -->
+<h2 class="city">Berlin</h2>
+<p class="city">Capital of Germany.</p>
+
+<!-- 5. Using class in JavaScript -->
+<button onclick="hideCities()">Hide cities</button>
+
+<script>
+function hideCities() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>

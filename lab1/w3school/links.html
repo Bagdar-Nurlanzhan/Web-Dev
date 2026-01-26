@@ -1,0 +1,95 @@
+<!-- HTML Links -->
+<!-- HTML links allow users to navigate from page to page -->
+
+<!-- Basic link syntax -->
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+
+<!-- Target attribute -->
+<!-- Open link in a new tab -->
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+<!-- Absolute URLs -->
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<!-- Relative URLs -->
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+<!-- Image as a link -->
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+<!-- Link to an email address -->
+<a href="mailto:someone@example.com">Send email</a>
+
+<!-- Button as a link (JavaScript) -->
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+<!-- Link with title attribute (tooltip) -->
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">
+Visit our HTML Tutorial
+</a>
+
+<!-- More URL examples -->
+<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a><br>
+<a href="/html/default.asp">HTML tutorial</a><br>
+<a href="default.asp">HTML tutorial</a>
+
+<!-- HTML Link Colors -->
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+<!-- Link styled as a button -->
+<style>
+a.button:link, a.button:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button:hover, a.button:active {
+  background-color: red;
+}
+</style>
+
+<a href="default.asp" class="button">This is a link</a>
+
+<!-- HTML Bookmarks -->
+<!-- Create a bookmark -->
+<h2 id="C4">Chapter 4</h2>
+
+<!-- Link to a bookmark on the same page -->
+<a href="#C4">Jump to Chapter 4</a>
+
+<!-- Link to a bookmark on another page -->
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
