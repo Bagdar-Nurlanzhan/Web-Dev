@@ -110,7 +110,6 @@ body {
     margin-left: 6px;
 }
 
-/* BUTTONS */
 .btn {
     width: 100%;
     padding: 10px;
@@ -136,7 +135,7 @@ body {
     border: 1px solid #d0d7de;
 }
 
-/* LIST */
+
 .card ul {
     list-style: none;
     font-size: 14px;
